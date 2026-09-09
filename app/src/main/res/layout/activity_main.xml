@@ -34,7 +34,7 @@
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/dice1"
-            android:src="@drawable/perspective_dice_six_faces_random" />
+            android:src="@drawable/random" />
 
         <ImageView
             android:id="@+id/dice2ImageView"
@@ -42,7 +42,7 @@
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/dice2"
-            android:src="@drawable/perspective_dice_six_faces_random" />
+            android:src="@drawable/random" />
 
         <ImageView
             android:id="@+id/dice3ImageView"
@@ -50,7 +50,7 @@
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/dice3"
-            android:src="@drawable/perspective_dice_six_faces_random" />
+            android:src="@drawable/random" />
 
         <ImageView
             android:id="@+id/dice4ImageView"
@@ -58,7 +58,7 @@
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/dice4"
-            android:src="@drawable/perspective_dice_six_faces_random" />
+            android:src="@drawable/random" />
 
         <ImageView
             android:id="@+id/dice5ImageView"
@@ -66,7 +66,7 @@
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/dice5"
-            android:src="@drawable/perspective_dice_six_faces_random" />
+            android:src="@drawable/random" />
 
     </LinearLayout>
 
