@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textFontWeight="800"
+        android:text="@string/title" />
+
+    <LinearLayout
+        android:id="@+id/dicesLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/dice1ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/dice1"
+            android:src="@drawable/perspective_dice_six_faces_random" />
+
+        <ImageView
+            android:id="@+id/dice2ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/dice2"
+            android:src="@drawable/perspective_dice_six_faces_random" />
+
+        <ImageView
+            android:id="@+id/dice3ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/dice3"
+            android:src="@drawable/perspective_dice_six_faces_random" />
+
+        <ImageView
+            android:id="@+id/dice4ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/dice4"
+            android:src="@drawable/perspective_dice_six_faces_random" />
+
+        <ImageView
+            android:id="@+id/dice5ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/dice5"
+            android:src="@drawable/perspective_dice_six_faces_random" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textFontWeight="450"
+        android:text="@string/score" />
+
+    <TextView
+        android:id="@+id/sumScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textFontWeight="450"
+        android:text="@string/sumScore" />
+
+    <TextView
+        android:id="@+id/attemptsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textFontWeight="450"
+        android:text="@string/attempts" />
+
+    <TextView
+        android:id="@+id/generalScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textFontWeight="450"
+        android:text="@string/generalScore" />
+
+    <LinearLayout
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/rollBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="@string/roll" />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="@string/reset" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RollTheDice</string>
+    <string name="title">Gra w Kości</string>
+    <string name="dice1">Kostka nr 1</string>
+    <string name="dice2">Kostka nr 2</string>
+    <string name="dice3">Kostka nr 3</string>
+    <string name="dice4">Kostka nr 4</string>
+    <string name="dice5">Kostka nr 5</string>
+    <string name="score">Wylosowane liczby: 0, 0, 0, 0, 0.</string>
+    <string name="sumScore">Suma oczek: 0.</string>
+    <string name="generalScore">Suma ogólna: 0.</string>
+    <string name="attempts">Ilość prób: 0.</string>
+    <string name="roll">RZUĆ!</string>
+    <string name="reset">RESET</string>
+</resources>
